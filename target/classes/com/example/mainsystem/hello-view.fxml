@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="122.0" layoutY="84.0" prefHeight="133.0" prefWidth="642.0" text="Stockman" textFill="#210070">
+            <font>
+                <Font name="Arial Black" size="96.0" />
+            </font>
+            <effect>
+                <DropShadow height="10.015" radius="4.22875" spread="1.0" width="8.9">
+                    <color>
+                        <Color red="0.25882354378700256" green="0.9176470637321472" blue="0.8666666746139526" />
+                    </color>
+                </DropShadow>
+            </effect>
+        </Label>
+        <GridPane layoutX="901.0" layoutY="336.0" prefHeight="275.0" prefWidth="379.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="214.0" minWidth="10.0" prefWidth="135.847900390625" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="317.0" minWidth="10.0" prefWidth="269.152099609375" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="47.0" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="38.0" minHeight="21.0" percentHeight="0.0" prefHeight="38.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label text="Password" textFill="#210070" GridPane.rowIndex="1">
+                    <font>
+                        <Font name="Arial Black" size="16.0" />
+                    </font>
+                </Label>
+                <Label prefHeight="26.0" prefWidth="96.0" text="Username" textFill="#210070">
+                    <font>
+                        <Font name="Arial Black" size="17.0" />
+                    </font>
+                </Label>
+                <PasswordField prefHeight="25.0" prefWidth="220.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <TextField GridPane.columnIndex="1" />
+                <Button mnemonicParsing="false" prefHeight="40.0" prefWidth="126.0" style="-fx-background-color: #210070;" text="LogIn" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <font>
+                        <Font name="Arial Black" size="17.0" />
+                    </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <GridPane.margin>
+                  <Insets left="40.0" />
+               </GridPane.margin>
+                </Button>
+            </children>
+        </GridPane>
+      <Label layoutX="132.0" layoutY="213.0" prefHeight="29.0" prefWidth="551.0" text="The inventory,  the value  of my company, walks out the door every evening">
+         <font>
+            <Font name="Arial Black" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="44.0" fitWidth="50.0" layoutX="646.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../images/circles-2.png" />
+         </image>
+      </ImageView>
+    </children>
+</Pane>

@@ -1,0 +1,37 @@
+.button{
+-fx-background-color :#2f0494;
+
+}
+.button:hover{
+-fx-background-color : #42eadd;
+
+}
+.button:pressed{
+-fx-background-color : #106b4f ;
+}
+.menu-item:hover {
+     -fx-background-color:  #42eadd;
+}
+/*.menu-item {
+-fx-background-color :#2f0494;
+}*/
+
+.menu-button:focused{
+ -fx-background-color:  #42eadd;
+ }
+.menu:hover {
+     -fx-background-color:  #42eadd;
+}
+.menu:pressed {
+     -fx-background-color: #106b4f ;
+}
+
+.table-view .column-header {
+    -fx-background-color:  #42eadd;
+}
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+     -fx-font-weight: bold;
+
+}
